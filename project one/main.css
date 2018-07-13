@@ -1,0 +1,119 @@
+  body, html {
+    padding: 0;
+    width: 100%;
+  }
+
+  body {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  hr {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-width: 2px;
+    border-color: #7d97ad;
+
+  }
+
+  ul {
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 -20px;
+  }
+
+  header, footer, section {
+  box-sizing: content-box;
+  }
+
+  h1 {
+    font-size: 45px;
+    font-weight: 200;
+    color: #2d3c49;
+    margin: 5px;
+  }
+
+  .header {
+    min-height: 80px;
+  }
+
+  .header_inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header_logo {
+    height: 60px;
+    display: inline-block;
+  }
+
+  .header_title {
+    display:inline-block;
+    text-align: right;
+    float: right;
+  }
+
+  .header_sm {
+    font-size: 20px;
+    color: #2d3c49;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  .hero_image {
+    width: 100%;
+  }
+
+
+  /* .featured_work {
+    width: 100%;
+  } */
+
+  .featured_work_title {
+    font-size: 30px;
+    font-weight: 300;
+    color: #7d97ad;
+  }
+  
+  .featured_work_item {
+    width: 33.33333%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .featured_work_item_title {
+    font-size: 30px;
+    font-weight: 300;
+    color: #2d3c49;
+    margin: auto;
+  }
+
+ @media screen and (max-width: 699px) {
+   .featured_work_item{
+     width: 100%;
+   }
+ }
+
+  /* @media screen and (min-width: 700px) {
+    .page_wrapper {
+      width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  } */
+
+  @media screen and (min-width: 850px) {
+    .page_wrapper {
+      width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+  }
