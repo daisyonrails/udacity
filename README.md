@@ -1,4 +1,4 @@
-# udacity-build-a-portfolio-site
+# Build a Portfolio site
 
 This is the first project from Udacity Front-end Development course.
 Project name called 'Build a Portfolio Site.'
