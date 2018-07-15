@@ -15,4 +15,4 @@ You may also use your own custom images to personalize this project.
 
 Click [here][1].
 
-[1]: https://www.
+[1]: https://daisyonrails.github.io/
